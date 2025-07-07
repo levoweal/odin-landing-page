@@ -1,0 +1,70 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+}
+
+.section-one-item {
+    flex: 1 1 0;
+}
+
+.section-two h2 {
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    gap: 10px;
+}
+
+.illu-text {
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+}
+
+.author {
+    text-align: end;
+}
+
+.section-four {
+    display: flex;
+    align-items: center;
+}

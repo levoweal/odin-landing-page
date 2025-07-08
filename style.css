@@ -55,16 +55,27 @@ header {
     background-color: #1F2937;
     padding-top: 6%;
     padding-bottom: 6%;
+    gap: 20px;
 }
 
 .one-item {
     flex: 1 1 0;
+    width: 100%;
+    height: 90%;
+}
+
+.one-item.one-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-top: 0;
 }
 
 .sub-title, .footer-text {
@@ -114,6 +125,30 @@ header {
     border: solid 4px #3882F6;
     border-radius: 15px;
     margin: auto;
+    overflow: hidden;
+}
+
+.chipmunk img {
+    margin-left: -44px;
+    height: 100%;
+}
+
+.fawn img {
+    margin-top: -120px;
+    margin-left: -18px;
+    width: 120%;
+}
+
+.fox img {
+    width: 170%;
+    margin-left: -57px;
+    margin-top: -20px;
+}
+
+.owl img {
+    width: 150%;
+    margin-top: -56px;
+    margin-left: -40px;
 }
 
 .illu-text {
